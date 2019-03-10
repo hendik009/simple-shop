@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FormWizard_v8</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+            <form action="" id="wizard">
+        		<!-- SECTION 1 -->
+                <h4></h4>
+                <section>
+                    <h3>Alamat Pengiriman Anda</h3>
+                	<div class="form-row">
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account"></i>
+                            <input type="text" class="form-control" placeholder="Nama">
+                        </div>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account"></i>
+                           <input type="text" class="form-control" placeholder="Negara">
+                        </div>
+                	</div>
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-email"></i>
+                            <input type="text" class="form-control" placeholder="Email">
+                        </div>
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-account-box-o"></i>
+                           <input type="text" class="form-control" placeholder="Kode Pos">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-map"></i>
+                            <input type="text" class="form-control" placeholder="Kota/Kabupaten">
+                        </div>
+                        <div class="form-group">
+                            <div class="form-holder">
+                                <i class="zmdi zmdi-pin"></i>
+                                <input type="text" class="form-control" placeholder="Kecamatan">
+                            </div>
+                            <div class="form-holder">
+                                <i class="zmdi zmdi-pin-drop"></i>
+                                <input type="text" class="form-control" placeholder="Alamat">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-holder">
+                            <i class="zmdi zmdi-smartphone-android"></i>
+                            <input type="text" class="form-control" placeholder="No Telepon">
+                        </div>
+                    </div>
+                </section>
+
+				<!-- SECTION 2 -->
+                <h4></h4>
+                <section>
+                	<h3>Pembayaran</h3>
+              
+                    <input type="radio" name="gender" value="male" > Bank Transfer<br>
+                    <input type="radio" name="gender" value="female"> Kartu Kredit <br>
+                    <input type="radio" name="gender" value="female"> Virtual Account <br>
+                    <input type="radio" name="gender" value="female"> BCA KlikPay <br>
+                </section>
+
+                <!-- SECTION 3 -->
+                <h4></h4>
+                <section>
+                    <h3 style="margin-bottom: 16px;">My Cart</h3>
+                    <table cellspacing="0" class="table-cart shop_table shop_table_responsive cart woocommerce-cart-form__contents table" id="shop_table">
+                        <thead>
+                            <th >&nbsp;</th>
+                            <th style="text-align: left;">Detail Produk</th>
+                            <th >Jumlah</th>
+                            <th >Total Harga</th>
+                            <th >&nbsp;</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="product-thumb">
+                                    <a href="#" class="item-thumb">
+                                        <img src="images/item-1.jpg" alt="">
+                                    </a>
+                                </td>
+                                <td class="product-detail" data-title="Product Detail">
+                                    <div>
+                                        <a href="#">Vans Sk8hi Floral</a>
+                                        <span>Rp</span>
+                                        <span>1.500.000</span>
+                                    </div>
+                                </td>
+                                <td class="product-quantity" data-title="Quantity">
+                                    <div class="quantity">
+                                        <span class="plus">+</span>
+                                        <input type="number" id="quantity_5b4f198d958e1" class="input-text qty text" step="1" min="0" max="" name="cart[5934c1ec0cd31e12bd9084d106bc2e32][qty]" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" />
+                                        <span class="minus">-</span>
+                                    </div>
+                                </td>
+                                <td class="total-price" data-title="Total Price">
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">Rp</span>
+                                        1.500.000
+                                    </span>
+                                </td>
+                                <td class="product-remove">
+                                    <a href="#">
+                                        <i class="zmdi zmdi-close-circle-o"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td class="product-thumb">
+                                    <a href="#" class="item-thumb">
+                                        <img src="images/item-1.jpg" alt="">
+                                    </a>
+                                </td>
+                                <td class="product-detail" data-title="Product Detail">
+                                    <div>
+                                        <a href="#">Vans Sk8hi X Snoopy</a>
+                                        <span>Rp</span>
+                                        <span>1.350.000</span>
+                                    </div>
+                                </td>
+                                <td class="product-quantity" data-title="Quantity">
+                                    <div class="quantity">
+                                        <span class="plus">+</span>
+                                        <input type="number" id="quantity_5b4f198d958e1" class="input-text qty text" step="1" min="0" max="" name="cart[5934c1ec0cd31e12bd9084d106bc2e32][qty]" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" />
+                                        <span class="minus">-</span>
+                                    </div>
+                                </td>
+                                <td class="total-price" data-title="Total Price">
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">Rp</span>
+                                        1.350.000
+                                    </span>
+                                </td>
+                                <td class="product-remove">
+                                    <a href="#">
+                                        <i class="zmdi zmdi-close-circle-o"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                             <tr>
+                                <td class="product-thumb">
+                                    <a href="#" class="item-thumb">
+                                        <img src="images/item-1.jpg" alt="">
+                                    </a>
+                                </td>
+                                <td class="product-detail" data-title="Product Detail">
+                                    <div>
+                                        <a href="#">Vans Sk8hi X HaroBikes</a>
+                                        <span>Rp</span>
+                                        <span>1.700.000</span>
+                                    </div>
+                                </td>
+                                <td class="product-quantity" data-title="Quantity">
+                                    <div class="quantity">
+                                        <span class="plus">+</span>
+                                        <input type="number" id="quantity_5b4f198d958e1" class="input-text qty text" step="1" min="0" max="" name="cart[5934c1ec0cd31e12bd9084d106bc2e32][qty]" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" />
+                                        <span class="minus">-</span>
+                                    </div>
+                                </td>
+                                <td class="total-price" data-title="Total Price">
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">Rp</span>
+                                        1.700.000
+                                    </span>
+                                </td>
+                                <td class="product-remove">
+                                    <a href="#">
+                                        <i class="zmdi zmdi-close-circle-o"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="product-thumb">
+                                    <a href="#" class="item-thumb">
+                                        <img src="images/item-2.jpg" alt="">
+                                    </a>
+                                </td>
+                                <td class="product-detail" data-title="Product Detail">
+                                    <div>
+                                         <a href="#">Vans Sk8hi Skull</a>
+                                        <span>Rp</span>
+                                        <span>1.700.000</span>
+                                    </div>
+                                </td>
+                                <td class="product-quantity" data-title="Quantity">
+                                    <div class="quantity">
+                                        <span class="plus">+</span>
+                                        <input type="number" id="quantity_5b4f198d958e1" class="input-text qty text" step="1" min="0" max="" name="cart[5934c1ec0cd31e12bd9084d106bc2e32][qty]" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" />
+                                        <span class="minus">-</span>
+                                    </div>
+                                </td>
+                                <td class="total-price" data-title="Total Price">
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">Rp</span>
+                                        1.700.000
+                                    </span>
+                                </td>
+
+
+                                <td class="product-remove">
+                                    <a href="#">
+                                        <i class="zmdi zmdi-close-circle-o"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+
+                <!-- SECTION 4 -->
+                <h4></h4>
+                <section>
+                    <h3>Konfirmasi Pembayaran</h3>
+                    <div class="cart_totals">
+                        <table cellspacing="0" class="shop_table shop_table_responsive">
+                            <tr class="cart-subtotal">
+                                <th>Subtotal</th>
+                                <td data-title="Subtotal">
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">Rp</span>6.250.000
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr class="cart-subtotal shipping">
+                                <th>Kode Pemesanan:</th>
+                                <td data-title="Subtotal">
+                                 <!--    <div class="checkbox">
+                                        <label>
+                                            <input type="radio" name="shipping" checked> Free Shipping
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label>
+                                            <input type="radio" name="shipping"> Local pickup: <span>$</span><span>0.00</span>
+                                            <span class="checkmark"></span>
+                                        </label>
+                                    </div> -->
+                                    <span>pw2qxv</span>
+                                   
+                                </td>
+                            </tr>
+                           <tr class="cart-subtotal">
+                                <th>Metode Pembayaran</th>
+                                 <td data-title="Subtotal">
+
+                                <span> Bank Transfer </span>
+                            </tr>
+
+                            <tr class="cart-subtotal">
+                                <th>Biaya Ongkos Kirim <span></span></th>
+                                <td data-title="Subtotal">
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">Rp</span>22.000
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr class="order-total border-0">
+                                <th>Total</th>
+                                <td data-title="Total">
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">Rp</span>6.272.000
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <ul role="menu" aria-label="Pagination" class="">
+                                        <li class="" >
+                                            <a href="#" class="selesai" style="border: none;display: inline-flex;height: 42px;width: 132px;align-items: center;color: #fff;cursor: pointer;background: #8eb852;text-transform: uppercase;justify-content: center;letter-spacing: 1px;font-size: 15px;border-radius: 3px;" onclick="alert('Thank You');">finish</a>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>           
+                        </table>
+                    </div>
+                    
+                </section>
+            </form>
+		</div>
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		
+		<!-- JQUERY STEP -->
+		<script src="js/jquery.steps.js"></script>
+
+		<script src="js/main.js"></script>
+        
+<!-- Template created and distributed by Colorlib -->
+
+</body>
+</html>
